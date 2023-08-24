@@ -17,8 +17,10 @@ etc. We validate our method on real-world datasets and synthetic-world datasets 
 editing tasks. See our
 [Websites](https://repaintnerf.github.io) for a better view into our edited results.
 
-## Getting Starte
-1. clone this repo
+**Note Just a pre-document, wating for full testing, sorry..., feel free to use it.**
+
+## Getting Started
+1. Clone this repo
 ```
 git clone https://github.com/StarsTesla/RePaint-NeRF
 cd RePaint-NeRF
@@ -44,18 +46,27 @@ bash scripts/install_ext.sh
 pip install ./raymarching # install to python path (you still need the raymarching/ folder, since this only installs the built extension.)
 ```
 4. Our Data
-   
-coming soon.........
 
-6. About the feature extraction
+We prepared the mask data of `hotdog` and `flower` in [google-drive](https://drive.google.com/drive/folders/1x_PIk2nOqA5ywymYiwKdn4rjB-C4CLhj?usp=sharing)
+We also encourage you use SAM to get the mask you want, we found that it is a very useful tools for open world and you should just make sure the masks are 3D consistent.
+
+5. About the feature extraction
 If you have the need, we are happy to help you with that, while it is kind of hard to install (it use LSeg) which is a different env.
 We strongly recommend you refer to [https://github.com/pfnet-research/distilled-feature-fields](https://github.com/pfnet-research/distilled-feature-fields)
 
+## Usage
+```
+for pretrain
+python main.py --text "a cup of coffe on a plate" --text_bg "plate" --workspace hotdog --bound=2.0 --iters=3000 --exp_name=hotdog_base --data_type=blender --data_dir=data --img_wh=[400,400]
+for editing
+python main.py --text "banana on a plate" --text_bg "plate" --workspace hotdog --bound=2.0 --iters=15000 --exp_name=hotdog_base --data_type=blender --data_dir=data --img_wh=[400,400] --pretrained
+```
 
 ## Acknowledgments
 This repo is heavily rely on [stable-dreamfusion](https://github.com/ashawkey/stable-dreamfusion), which is a pytorch implementation of the text-to-3D model Dreamfusion.
 
 ## Citation
+If you find this useful for your research, please cite the following paper.
 
 ```
 @inproceedings{RePaint-NeRF,
