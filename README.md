@@ -1,17 +1,7 @@
 # RePaint-NeRF
 Official Implementation for "RePaint-NeRF: NeRF Editting via Semantic Masks and Diffusion Models".
 
-
-
-https://github.com/StarsTesla/RePaint-NeRF/assets/45264423/684847b5-025f-49b6-a524-9bdeb1e2c55a
-
-
-https://github.com/StarsTesla/RePaint-NeRF/assets/45264423/79170e42-11a6-431e-8871-e9f71d96292e
-
-
-
-https://github.com/StarsTesla/RePaint-NeRF/assets/45264423/9e41164b-e2c2-4a29-8483-37dd79d045d6
-
+https://github.com/StarsTesla/RePaint-NeRF/assets/45264423/2bbb3246-c562-472e-8bb7-c9f8f92aa38a
 
 
 The emergence of Neural Radiance Fields (NeRF) has promoted the development of synthesized high-fidelity views of the intricate real world. However, it is still a very demanding task to repaint the content in NeRF. In this paper, we propose a novel framework that can take RGB images as input and alter the 3D content in neural scenes. Our work
@@ -24,7 +14,7 @@ Experiment results show that our
 algorithm is effective for editing 3D objects in NeRF under different text prompts,
 including editing appearance, shape,
 etc. We validate our method on real-world datasets and synthetic-world datasets for these
-editing tasks. See
+editing tasks. See our
 [Websites](https://repaintnerf.github.io) for a better view into our edited results.
 
 ## Getting Starte
