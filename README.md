@@ -1,4 +1,4 @@
-# RePaint-NeRF
+# RePaint-NeRF: NeRF Editting via Semantic Masks and Diffusion Models
 Official Implementation for "RePaint-NeRF: NeRF Editting via Semantic Masks and Diffusion Models".
 
 https://github.com/StarsTesla/RePaint-NeRF/assets/45264423/2bbb3246-c562-472e-8bb7-c9f8f92aa38a
@@ -15,7 +15,7 @@ algorithm is effective for editing 3D objects in NeRF under different text promp
 including editing appearance, shape,
 etc. We validate our method on real-world datasets and synthetic-world datasets for these
 editing tasks. See our
-[Websites](https://repaintnerf.github.io) for a better view into our edited results.
+[Websites](https://starstesla.github.io/repaintnerf/) for a better view into our edited results.
 
 **Note Just a pre-document, wating for full testing, sorry..., feel free to use it.**
 
