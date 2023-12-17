@@ -69,9 +69,13 @@ This repo is heavily rely on [stable-dreamfusion](https://github.com/ashawkey/st
 If you find this useful for your research, please cite the following paper.
 
 ```
-@inproceedings{RePaint-NeRF,
-      title={{RePaint-NeRF}: NeRF Editting via Semantic Masks and Diffusion Models}, 
-      author={Zhou, Xingchen and He, Ying and Yu, F Richard and Li, Jianqiang and Li, You},
-      year={2023},
-      booktitle={IJCAI},
+@inproceedings{ijcai2023p201,
+  title     = {RePaint-NeRF: NeRF Editting via Semantic Masks and Diffusion Models},
+  author    = {Zhou, Xingchen and He, Ying and Yu, F. Richard and Li, Jianqiang and Li, You},
+  booktitle = {Proceedings of the Thirty-Second International Joint Conference on
+               Artificial Intelligence, {IJCAI-23}},
+  pages     = {1813--1821},
+  year      = {2023},
+  month     = {8}
+}
 ```
